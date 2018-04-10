@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <script src="/assets/js/jquery-1.11.3.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="Box">
+    <div class="Title">登录</div>
+    <div class="SingleBox">
+        <div class="InputBox">
+            <span class="Intro">用户名:</span>
+            <input class="LogIn" id="Name" type="text" placeholder="请填写用户名">
+            <p class="Error" id="NameError"></p>
+        </div>
+        <div class="InputBox">
+            <span class="Intro">密码:</span>
+            <input class="LogIn" id="Pass" type="password" placeholder="请填写密码">
+            <p class="Error" id="PassError"></p>
+        </div>
+        <div class="InputBox">
+            <p class="LoginBtn" id="LoginBtn">登录</p>
+        </div>
+    </div>
+</div>
+<script src="/assets/js/login.js"></script>
+</body>
+</html>

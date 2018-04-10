@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echonessy-Chart</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <script src="/assets/js/jquery-1.11.3.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="ChartBox">
+    <div class="Title">Welcome <span id="User"><%= User %></span> To Chatroom</div>
+    <ul class="MessageBox" id="MessageBox"></ul>
+    <div contenteditable="true" class="TextBox" id="TextBox"></div>
+    <div class="Menu">
+        <p class="Quit" id="Quit">退出</p>
+        <p class="Send" id="Send">发送</p>
+    </div>
+</div>
+<script src="/assets/js/index.js"></script>
+</body>
+</html>
