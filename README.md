@@ -6,15 +6,12 @@
 ``` bash
 安装依赖
 npm install --save
-    
+启动
+   node server.js
 ```
 
 
 
-
-## 贪食蛇思路图
-
-![image](https://github.com/Echonessy/EchoChart/blob/master/read/1.png)
 ## 效果图
 
-![image](https://github.com/Echonessy/EchoChart/blob/master/read/2.png)
+![image](https://github.com/Echonessy/EchoChart/blob/master/read/1.png)
